@@ -3,7 +3,7 @@
 Support scripts that allows Security-cam recordings to be automatically pushed on to Google Drive.<br/> This script usually runs on Rasberry-PI.<br/>
 Steps:
 <br/>
-1. Paste the rtsp link in scripts
+1. Paste the rtsp link of IPC cameras(You may need to switch on ONVIF communication protocol from IPC360), in scripts
 2. setup <a href="https://rclone.org/">RClone</a> and give credentials for Google drive.
 3. Install <a href="https://telepot.readthedocs.io/en/latest/">Telepot</a>
 4. Create <a href="https://core.telegram.org/bots">telegram bot</a>, If you want to receive updates about record status and whether cam is Connected or Disconnected (Sure it can happen, if someone cuts the power cord purposely, in this case message will be send to telegram bot). Paste the token and <a href="https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id">chatID</a> in sendMessage.py
