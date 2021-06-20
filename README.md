@@ -1,6 +1,6 @@
 # IPC360_support
 
-Support scripts that allows Security-cam recordings to be automatically pushed on to Google Drive. 
+Support scripts that allows Security-cam recordings to be automatically pushed on to Google Drive. This script usually runs on Rasberry-PI.
 Steps:
 <br/>
 1. Paste the rtsp link in scripts
